@@ -1,2 +1,9 @@
 /* google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* css variables */
+:root {
+    --primary-font: "DM Serif Text", serif;
+    --secondary-font: "Montserrat", serif;
+}
