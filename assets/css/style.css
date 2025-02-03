@@ -6,13 +6,32 @@
 :root {
     --primary-font: "DM Serif Text", serif;
     --secondary-font: "Montserrat", serif;
-    --primary-color: #5AA9E6; /* Argentinian Blue */
+    --primary-color: #05014a;
     --secondary-color: #7FC8F8; /* Light Sky Blue */
     --highlight-color: #FFE45E; /* Naples yellow */
-    --highlight-color-light: #F9F9F9; /* Seasalt */
+    --background-color: #F9F9F9; /* Seasalt */
 }
 
-/* grid vis for testing  */
+/* global styles */
+
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+/* grid vis for testing  
 
 .container,
 .row {
@@ -23,3 +42,4 @@
     border: 2px solid white;
     background-color: lightgray;
 }
+*/
