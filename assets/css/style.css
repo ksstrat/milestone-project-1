@@ -6,10 +6,14 @@
 :root {
     --primary-font: "DM Serif Text", serif;
     --secondary-font: "Montserrat", serif;
-    --primary-color: #7FC8F8; /* Light Sky Blue */
+    --primary-color: #000723;
+    --secoundary-color: #7FC8F8; /* Light Sky Blue */
     --highlight-color: #FFE45E; /* Naples yellow */
     --highlight-color-light: #DDD78D; /* Flax */
     --background-color: #F9F9F9; /* Seasalt */
+    --white-color: #ffffff; /* White */
+    --black-color: #000000; /* Black */
+
 }
 
 /* global styles */
@@ -38,6 +42,7 @@ h2  {
 .nav-button {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
+    color: var(--primary-color);
 }
 
 .nav-button:hover {
@@ -55,12 +60,14 @@ h2  {
 
 #contact {
     background-color: var(--primary-color);
-    color: black;
+    color: var(--white-color);
 }
 
 #contact h3 {
-    color: black;
+    color: var(--white-color);
 }
+
+
 
 /* grid vis for testing 
 
