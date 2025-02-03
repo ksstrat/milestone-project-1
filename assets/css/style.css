@@ -16,7 +16,6 @@
 
 body {
     font-family: var(--secondary-font);
-    background-color: var(--background-color);
 }
 
 h1,
@@ -29,6 +28,12 @@ h3 {
 h1,
 h2 {
     text-transform: uppercase;
+}
+
+/* Nav */
+
+#navbar {
+    background-color: var(--primary-color);
 }
 
 /* grid vis for testing  
