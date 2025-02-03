@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-/* css variables */
+/* global css variables */
 :root {
     --primary-font: "DM Serif Text", serif;
     --secondary-font: "Montserrat", serif;
+    --primary-color: #5AA9E6; /* Argentinian Blue */
+    --secondary-color: #7FC8F8; /* Light Sky Blue */
+    --highlight-color: #FFE45E; /* Naples yellow */
+    --highlight-color-light: #F9F9F9; /* Seasalt */
 }
