@@ -31,10 +31,21 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Nav */
+/* nav */
 
 #navbar {
     background-color: var(--primary-color);
+}
+
+/* footer */
+
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#contact h3 {
+    color: white;
 }
 
 /* grid vis for testing  
