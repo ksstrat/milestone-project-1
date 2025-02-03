@@ -8,6 +8,7 @@
     --secondary-font: "Montserrat", serif;
     --primary-color: #7FC8F8; /* Light Sky Blue */
     --highlight-color: #FFE45E; /* Naples yellow */
+    --highlight-color-light: #DDD78D; /* Flax */
     --background-color: #F9F9F9; /* Seasalt */
 }
 
@@ -40,8 +41,8 @@ h2  {
 }
 
 .nav-button:hover {
-    border: 2px solid var(--background-color);
-    background-color: var(--background-color);
+    border: 2px solid var(--highlight-color-light);
+    background-color: var(--highlight-color-light);
 }
 
 /* nav */
