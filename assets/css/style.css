@@ -23,7 +23,7 @@ h1,
 h2,
 h3 {
     font-family: var(--primary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 h1,
@@ -31,21 +31,25 @@ h2 {
     text-transform: uppercase;
 }
 
+h2  {
+    margin: 2rem;
+}
+
 /* nav */
 
 #navbar {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 /* footer */
 
 #contact {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--secondary-color);
+    color: black;
 }
 
 #contact h3 {
-    color: white;
+    color: black;
 }
 
 /* grid vis for testing  
