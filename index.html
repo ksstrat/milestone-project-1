@@ -18,7 +18,8 @@
   </head>
 
   <!-- body element starts here-->
-  <body>
+  <!-- classes on body so footer mt-auto will work and stay to the bottom of the page -->
+  <body class="d-flex flex-column min-vh-100">
     <!-- navigation -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -124,16 +125,16 @@
     </main>
 
     <!-- footer -->
-    <footer>This will be the footer section
+    <!-- mt-auto to push footer to page bottom-->
+    <footer class="mt-auto">
         <div class="container section">
             <div class="row">
-                <table>
+                <ul>
                     <li>contact</li>
                     <li>info</li>
                     <li>here</li>
-                </table>
+                </ul>
             </div>
-        </div>
         <div class="social-links">
             <a href="https://www.instagram.com/" target="_blank"
                 aria-label="Link to Instagram (opens in a new tab)" rel="noopener">
@@ -148,6 +149,7 @@
                 aria-label="Link to Pinterest (opens in a new tab)" rel="noopener">
                 <i class="fa-brands fa-pinterest"></i></a>
         </div>
+    </div>
     </footer>
 
     <!-- bootstrap JS script-->
