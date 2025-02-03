@@ -6,8 +6,7 @@
 :root {
     --primary-font: "DM Serif Text", serif;
     --secondary-font: "Montserrat", serif;
-    --primary-color: #05014a;
-    --secondary-color: #7FC8F8; /* Light Sky Blue */
+    --primary-color: #7FC8F8; /* Light Sky Blue */
     --highlight-color: #FFE45E; /* Naples yellow */
     --background-color: #F9F9F9; /* Seasalt */
 }
@@ -23,7 +22,7 @@ h1,
 h2,
 h3 {
     font-family: var(--primary-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 h1,
@@ -35,16 +34,26 @@ h2  {
     margin: 2rem;
 }
 
+.nav-button {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+}
+
+.nav-button:hover {
+    border: 2px solid var(--background-color);
+    background-color: var(--background-color);
+}
+
 /* nav */
 
 #navbar {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 /* footer */
 
 #contact {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: black;
 }
 
@@ -52,7 +61,7 @@ h2  {
     color: black;
 }
 
-/* grid vis for testing  
+/* grid vis for testing */
 
 .container,
 .row {
@@ -63,4 +72,3 @@ h2  {
     border: 2px solid white;
     background-color: lightgray;
 }
-*/
