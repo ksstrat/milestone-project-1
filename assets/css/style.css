@@ -13,6 +13,7 @@
     --background-color: #F9F9F9; /* Seasalt */
     --white-color: #ffffff; /* White */
     --black-color: #000000; /* Black */
+    --hero-background-color: rgb(211, 211, 211, 0.65); /* Lightgray */
 
 }
 
@@ -48,6 +49,14 @@ h2  {
 .nav-button:hover {
     border: 2px solid var(--highlight-color-light);
     background-color: var(--highlight-color-light);
+}
+
+/* hero */
+
+.carousel-caption {
+    background-color: var(--hero-background-color);
+    border-radius: 10px;
+    color: var(--black-color)
 }
 
 /* nav */
