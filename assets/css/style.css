@@ -67,7 +67,9 @@ h2  {
 
 /* testimonial section */
 
-#testemonialimg {
+#testemonialimg1,
+#testemonialimg2,
+#testemonialimg3 {
     height: 240px;
     width: 320px;
 }
