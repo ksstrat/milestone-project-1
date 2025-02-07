@@ -65,6 +65,13 @@ h2  {
     background-color: var(--primary-color);
 }
 
+/* testimonial section */
+
+#testemonialimg {
+    height: 240px;
+    width: 320px;
+}
+
 /* footer */
 
 #contact {
