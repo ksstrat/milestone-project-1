@@ -67,16 +67,18 @@
       </div>
     </nav>
 
-     <!-- header booking page -->
-     <header id="headerbooking" class="container section">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1 class="display-4">WaterWayFriends</h1>
-            <p class="lead display-5">Book your tour now</p>
-            <p class="my-4">
-                Please fill out the form completely and correctly. This is the only way to secure your place on one of the tours!
-            </p>
-          </div>
+    <!-- header booking page -->
+    <header id="headerbooking" class="container section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-4">WaterWayFriends</h1>
+          <p class="lead display-5">Book your tour now</p>
+          <p class="my-4">
+            Please fill out the form completely and correctly. This is the only
+            way to secure your place on one of the tours!
+          </p>
+        </div>
+      </div>
     </header>
 
     <!-- main for all key sections -->
@@ -84,15 +86,37 @@
       <section id="booking" class="container section">
         <form action="success.html" method="get">
           <div class="row">
-            <div class="mb-3">
-                <label for="FirstName" class="form-label">First Name</label>
-                <input class="form-control" id="FirstName" name="FirstName" type="text" required>
+            <div class="mb-3 col-lg-6">
+              <label for="FirstName" class="form-label">First Name</label>
+              <input
+                class="form-control"
+                id="FirstName"
+                name="FirstName"
+                type="text"
+                required
+              />
             </div>
-            <div class="mb-3">
-                <label for="LastName" class="form-label">Last Name</label>
-                <input class="form-control" id="LastName" name="LastName" type="text" required>
+            <div class="mb-3 col-lg-6">
+              <label for="LastName" class="form-label">Last Name</label>
+              <input
+                class="form-control"
+                id="LastName"
+                name="LastName"
+                type="text"
+                required
+              />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 col-lg-6">
+              <label for="PhoneNumber" class="form-label">Phone Number</label>
+              <input
+                class="form-control"
+                id="PhoneNumber"
+                name="PhoneNumber"
+                type="number"
+                required
+              />
+            </div>
+            <div class="mb-3 col-lg-6">
               <label for="email" class="form-label">Email address</label>
               <input
                 type="email"
@@ -105,23 +129,42 @@
                 We'll never share your email with anyone else.
               </div>
             </div>
-            <div class="mb-3">
-            <select class="form-select" aria-label="Tour select" required>
-              <option selected>Choose your tour</option>
-              <option value="1">Tour One</option>
-              <option value="2">Tour Two</option>
-              <option value="3">Tour Three</option>
-            </select>
-            </div>
-            <div class="mb-3">
-              <label for="usermessage" class="form-label"
-                >Example textarea</label
+
+            <div class="my-3">
+              <select
+                class="form-select"
+                aria-label="Choose your desired tour"
+                required
               >
+                <option selected>Choose your desired tour</option>
+                <option value="1">Nordwald River Tour - Beginners</option>
+                <option value="2">Lake Emerald Tour - Experienced</option>
+                <option value="3">White River Tour - Experts</option>
+              </select>
+            </div>
+            <div class="my-3">
+              <label for="usermessage" class="form-label">Message</label>
               <textarea
                 class="form-control"
                 id="usermessage"
                 rows="3"
               ></textarea>
+            </div>
+
+            <div class="form-check form-switch my-2 mx-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="checkcost"
+                required
+              />
+              <label class="form-check-label" for="checkcost">
+                <strong
+                  >Please note that we charge €25 per tour for transfers and
+                  catering.</strong
+                >
+              </label>
             </div>
             <div class="col-12 text-end">
               <button type="submit" class="btn btn-primary m-3">Submit</button>
