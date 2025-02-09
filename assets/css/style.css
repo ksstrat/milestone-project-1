@@ -40,6 +40,8 @@ h2  {
     margin: 2rem;
 }
 
+/* nav */
+
 .nav-button {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
@@ -50,8 +52,6 @@ h2  {
     border: 2px solid var(--highlight-color-light);
     background-color: var(--highlight-color-light);
 }
-
-/* nav */
 
 #navbar {
     background-color: var(--primary-color);
@@ -73,9 +73,7 @@ h2  {
     font-size: 200%;
 }
 
-/* index.html */
-
-/* hero */
+/* index.html hero */
 
 .carousel-caption {
     background-color: var(--hero-background-color);
@@ -83,7 +81,9 @@ h2  {
     color: var(--black-color)
 }
 
-/* testimonial section */
+/* index.html testimonial section */
+
+/* testemonial imgs */
 
 #testemonialimg1,
 #testemonialimg2,
@@ -92,9 +92,32 @@ h2  {
     width: 320px;
 }
 
+/* testemonial card text */
+
 .testemonialcard {
     height: 280px;
 }
+
+/* Media queries*/
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* testemonial buttons alignt for visibility on tablets and laptops*/
+    .carousel-control-next,
+    .carousel-control-prev {
+        margin-top: 200px;
+    }
+}
+
+/* Medium devices (Desktop, 1440px and up) */
+@media screen and (min-width: 1440px) {
+    /* testemonial buttons alignt for visibility on tablets and laptops*/
+    .carousel-control-next,
+    .carousel-control-prev {
+        margin-top: 0px;
+    }
+}
+
 
 /* grid vis for testing 
 
