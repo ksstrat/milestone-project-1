@@ -51,31 +51,10 @@ h2  {
     background-color: var(--highlight-color-light);
 }
 
-/* hero */
-
-.carousel-caption {
-    background-color: var(--hero-background-color);
-    border-radius: 60px;
-    color: var(--black-color)
-}
-
 /* nav */
 
 #navbar {
     background-color: var(--primary-color);
-}
-
-/* testimonial section */
-
-#testemonialimg1,
-#testemonialimg2,
-#testemonialimg3 {
-    height: 240px;
-    width: 320px;
-}
-
-.testemonialcard {
-    height: 280px;
 }
 
 /* footer */
@@ -92,6 +71,29 @@ h2  {
 .social-links i {
     padding: 2% 5%;
     font-size: 200%;
+}
+
+/* index.html */
+
+/* hero */
+
+.carousel-caption {
+    background-color: var(--hero-background-color);
+    border-radius: 60px;
+    color: var(--black-color)
+}
+
+/* testimonial section */
+
+#testemonialimg1,
+#testemonialimg2,
+#testemonialimg3 {
+    height: 240px;
+    width: 320px;
+}
+
+.testemonialcard {
+    height: 280px;
 }
 
 /* grid vis for testing 
