@@ -220,7 +220,15 @@ Mobile view:
 
 #### *Booking Form:*
 
-![Booking Form]()
+* The booking form allows the user to register for a tour.
+* The collection of user data must be limited to what is strictly necessary.
+* All fields are required except the message field.
+* The user receives a hint if a field has not been filled in or has been filled in incorrectly.
+* Clicking the Submit button will redirect the user to the success page.
+
+![Booking Form Desktop](docs/screenshots/booking-form-desktop.png)
+
+![Booking Form Mobile](docs/screenshots/booking-form-mobile.png)
 
 ### **Success page:**
 ***
