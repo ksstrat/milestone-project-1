@@ -83,18 +83,18 @@ h2  {
 
 /* index.html testimonial section */
 
-/* testemonial imgs */
+/* testimonial imgs */
 
-#testemonialimg1,
-#testemonialimg2,
-#testemonialimg3 {
+#testimonialimg1,
+#testimonialimg2,
+#testimonialimg3 {
     height: 240px;
     width: 320px;
 }
 
-/* testemonial card text */
+/* testimonial card text */
 
-.testemonialcard {
+.testimonialcard {
     height: 280px;
 }
 
@@ -102,7 +102,7 @@ h2  {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /* testemonial buttons alignt for visibility on tablets and laptops*/
+    /* testimonial buttons alignt for visibility on tablets and laptops*/
     .carousel-control-next,
     .carousel-control-prev {
         margin-top: 200px;
@@ -111,7 +111,7 @@ h2  {
 
 /* Medium devices (Desktop, 1440px and up) */
 @media screen and (min-width: 1440px) {
-    /* testemonial buttons alignt for visibility on tablets and laptops*/
+    /* testimonial buttons alignt for visibility on tablets and laptops*/
     .carousel-control-next,
     .carousel-control-prev {
         margin-top: 0px;
