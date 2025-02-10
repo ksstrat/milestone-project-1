@@ -35,8 +35,8 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
     * [***Success page:***](#success-page)
       * [*Success Header*](#success-header)
       * [*Success Hero*](#success-hero)
-      * [*More Adventurous Section*](#more-adventurous)
-    * [**Anchor Tags Within all Pages Main Content**](#anchor-tags-within-all-pages-main-content)
+      * [*More Adventurous Section*](#more-adventurous-section)
+    * [***404 page:***](#404-page)
     * [**Typography**](#typography)
 5. [**Future-Enhancements**](#future-enhancements)
 6. [**Testing Phase**](#testing-phase)
@@ -58,9 +58,9 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
 * As a User, I need easy navigation, including a responsive layout for my device.
 * As a User, I want to see high-quality images of past tours.
 * As a User, I want to find contact details and social media links easily.
-* As a user, I want to see upcoming tours and potential costs.
+* As a User, I want to see upcoming tours and potential costs.
 * As a User, I want to book a kayak tour.
-* As a user, I want to read the opinions of participants.
+* As a User, I want to read the opinions of participants.
 
 ### **Site Aims:**
 * To show what the WaterWayFriends community is all about.
@@ -104,7 +104,7 @@ In the end, this was the better decision as it gave the site a much more elegant
 ## **Features Common to all pages**
 ###  **Navigation Bar**
 * The navigation bar sticks to the top of the page as the user scrools up and down.
-* It is displayed on all four pages with the same content.
+* It is displayed on all five pages with the same content.
 * The name of the community is displayed on the left hand side.
 * On the right hand side of the bar is a link to the About Us section of the home page, a link to the Tours page and a button that takes you to the Booking Form.
 * The page a user is on is highlighted.
@@ -130,7 +130,7 @@ Unfolded
 
 ### **Footer**
 * The footer is always at the bottom of the page.
-* It is displayed on all four pages with the same content.
+* It is displayed on all five pages with the same content.
 * It contains all the contact details for the community.
 * It provides links to the community's social media profiles.
 
@@ -257,6 +257,17 @@ Mobile view:
 * The text also contains a hyperlink to the tour page.
 
 ![More Adcenturous](docs/screenshots/success-more-adventurous.png)
+
+### **404 page:**
+***
+
+* The 404 page gives users feedback when they visit an incorrect URL/link.
+* The content of the header clearly indicates that they have tried to access a non-existent page.
+* The hero's image is intended to be humorous and to make the user feel good, to avoid any possible feeling of frustration.
+* The button below the hero image is clearly labelled and takes the user back to the home page. This gives the user a quick return to a good experience.
+
+
+![404 Page](docs/screenshots/404-page.png)
 
 ***
 ## **Typography**
