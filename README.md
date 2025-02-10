@@ -164,6 +164,13 @@ Mobile view:
 #### *About Us Section:*
 ##### *Why Paddle With Us*
 
+* This section highlights the benefits of community kayaking.
+* It explains the user why kayaking is good for body and soul.
+* The benefits should help the user to recognise the added value of kayaking in the community.
+* The benefits are divided into four categories - Nature, Exercise, Relaxation and Adventure.
+* In mobile view, these categories are displayed one below the other.
+* From the tablet view and upwards, two of these categories are displayed side by side.
+
 ![About Us Desktop](docs/screenshots/about-us-desktop.png)
 
 ![About Us Moblie](docs/screenshots/about-us-mobile.png)
