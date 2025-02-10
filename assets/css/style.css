@@ -77,7 +77,7 @@ h2  {
 
 .carousel-caption {
     background-color: var(--hero-background-color);
-    border-radius: 60px;
+    border-radius: 18px;
     color: var(--black-color)
 }
 
