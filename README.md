@@ -11,13 +11,13 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***How Is This Will Be Achieved:***](#how-is-this-will-be-achieved)
+    * [***How Is This Will Be Accomplished***](#how-this-will-be-accomplished)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
-3. [**Features Common to all pages**](#features-common-to-all-pages)
-    * [*Navigation Bar*](#navigation-bar)
-    * [*Header Element Heading h1*](#header-element-heading-h1)
-    * [*Footer*](#footer)
+3. [**Features Common on all pages**](#features-common-on-all-pages)
+    * [***Navigation Bar***](#navigation-bar)
+    * [***Header Element Heading h1***](#header-element-heading-h1)
+    * [***Footer***](#footer)
 4. [**Features of specific pages**](#features-of-specific-pages)
     * [***Home page***:](#home-page)
       * [*Home page Header*](#home-page-header)
@@ -25,7 +25,7 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
         * [*Preview Image*](#preview-image)
       * [*About Us Section*](#about-us-section)
         * [*Why Paddle With Us*](#why-paddle-with-us)
-      * [*Testemonial Section*](#testemonial-section)
+      * [*Testimonial Section*](#testimonial-section)
     * [***Tours page***:](#tours-page)
       * [*Tours Page Header*](#tours-page-header)
       * [*Journeys in 2025 Section*](#journeys-in-2025-section)
@@ -37,14 +37,15 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
       * [*Success Hero*](#success-hero)
       * [*More Adventurous Section*](#more-adventurous-section)
     * [***404 page:***](#404-page)
-    * [**Typography**](#typography)
-5. [**Future-Enhancements**](#future-enhancements)
+    * [***Typography***](#typography)
+5. [**Future Improvements**](#future-improvements)
 6. [**Testing Phase**](#testing-phase)
 7. [**Deployment**](#deployment)
 8. [**Credits**](#credits)
-    * [**General reference**](#general-reference)
-    * [**Content**](#content)
-    * [**Media**](#media)
+    * [***General reference***](#general-reference)
+    * [***Technologies used***](#technologies-used)
+    * [***Content***](#content)
+    * [***Media***](#media)
 
 ## **Planning stage**
 ### **Target Audiences:**
@@ -54,13 +55,13 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
 * Users who are already members of the WaterWayFriends community and want to stay informed about upcoming tours.
 
 ### **User Stories:**
-* As a User, I want to find information quickly and efficiently without frustration.
-* As a User, I need easy navigation, including a responsive layout for my device.
-* As a User, I want to see high-quality images of past tours.
-* As a User, I want to find contact details and social media links easily.
-* As a User, I want to see upcoming tours and potential costs.
-* As a User, I want to book a kayak tour.
-* As a User, I want to read the opinions of participants.
+* As a user, I want to find information quickly and efficiently without frustration.
+* As a user, I need easy navigation, including a responsive layout for my device.
+* As a user, I want to see high-quality images of past tours.
+* As a user, I want to find contact details and social media links easily.
+* As a user, I want to see upcoming tours and potential costs.
+* As a user, I want to book a kayak tour.
+* As a user, I want to read the opinions of participants.
 
 ### **Site Aims:**
 * To show what the WaterWayFriends community is all about.
@@ -69,9 +70,9 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
 * To provide users with information about past tours, such as pictures and testimonials.
 * To provide the user with information about upcoming tours and allow the User to make a booking.
 
-### **How Is This Will Be Achieved:**
+### **How This Will Be Accomplished:**
 * The home page provides the user with information about kayaking and kayaking tours.
-* The site will show the user high quality images of past tours.
+* The site will show the user high-quality images of past tours.
 * The site will explain the benefits of kayaking to the user.
 * The site will provide users with opinions from participants of past tours.
 * The site will show the user the upcoming tours. It will also provide detailed information about the tours.
@@ -79,7 +80,7 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
 * The site will allow the user to become part of the WayWaterFriends Community.
 
 ### **Wireframes:**
-I created wireframes for this project to organise my ideas and not lose focus. See the links below for the mobile and desktop versions of the four wireframes.
+I created wireframes for this project to organize my ideas and not lose focus. See the links below for the mobile and desktop versions of the four wireframes.
 
 * Mobile Wireframes:
     * [Home page]
@@ -94,24 +95,24 @@ I created wireframes for this project to organise my ideas and not lose focus. S
     * [Success page]
 
 ### **Color Scheme:**
-When choosing the colour scheme, I wanted a scheme that represented the element of water, while providing enough contrast for good readability. To generate the color palette I used https://coolors.co/. 
-I chose a variaton of light blue as the primary colour and a variation of white as the background colour.
+When choosing the color scheme, I wanted a scheme that represented the element of water while providing enough contrast for good readability. To generate the color palette, I used https://coolors.co/. 
+I chose a variaton of light blue as the primary color and a variation of white as the background color.
 A test with Lighthouse then showed that this choice of color was not optimal from an accessibility perspective. I had to change the light blue I had originally planned to a much darker blue.
-In the end, this was the better decision as it gave the site a much more elegant design.
+In the end, this was the better decision, as it gave the site a much more elegant design.
 
 ![Color Scheme](docs/screenshots/color-scheme.png)
 
-## **Features Common to all pages**
+## **Features Common on all pages**
 ###  **Navigation Bar**
-* The navigation bar sticks to the top of the page as the user scrools up and down.
+* The navigation bar sticks to the top of the page as the user scrolls up and down.
 * It is displayed on all five pages with the same content.
-* The name of the community is displayed on the left hand side.
-* On the right hand side of the bar is a link to the About Us section of the home page, a link to the Tours page and a button that takes you to the Booking Form.
+* The name of the community is displayed on the left-hand side.
+* On the right-hand side of the bar is a link to the About Us section of the home page, a link to the Tours page, and a button that takes you to the Booking Form.
 * The page a user is on is highlighted.
 
 ![Desktop Navigation Bar](docs/screenshots/navbar-desktop.png)
 
-* On smaller devices such as mobile phones, the links are grouped into a hambruger button on the right side. The display of the community name remains the same.
+* On smaller devices such as mobile phones, the links are grouped into a hamburger button on the right side. The display of the community name remains the same.
 
 Folded
 
@@ -122,7 +123,7 @@ Unfolded
 ![Mobile Navigation Bar - unfolded](docs/screenshots/navbar-mobile-unfolded.png)
 
 ### **Header Element Heading h1**
-* The h1 heading of the header is the same on all pages and contains the name of the community (WaterWayFriends). 
+* The h1 heading of the header is the same on all pages and contains the name of the community.(WaterWayFriends) 
 * It stays the same on all devices.
   * Note that the paragraph content of the header is different on each page, as it briefly describes the content of that page.
 
@@ -165,9 +166,9 @@ Mobile view:
 ##### *Why Paddle With Us*
 
 * This section highlights the benefits of community kayaking.
-* It explains the user why kayaking is good for body and soul.
-* The benefits should help the user to recognise the added value of kayaking in the community.
-* The benefits are divided into four categories - Nature, Exercise, Relaxation and Adventure.
+* It explains to the user why kayaking is good for body and soul.
+* The benefits should help the user to recognize the added value of kayaking in the community.
+* The benefits are divided into four categories: Nature, Exercise, Relaxation, and Adventure.
 * In mobile view, these categories are displayed one below the other.
 * From the tablet view and upwards, two of these categories are displayed side by side.
 
@@ -176,7 +177,7 @@ Mobile view:
 ![About Us Moblie](docs/screenshots/about-us-mobile.png)
 
 
-#### *Testemonial Section:*
+#### *Testimonial Section:*
 * The Testimonials section contains reviews from members and friends of the community. This is where they share their experiences from the tours they have done with the community in the past.
 * The testimonial section consists of a picture of the reviewer and a quote from them.
 * The individual reviews scroll automatically. However, this can also be controlled manually using the arrow buttons on the left and right edges.
@@ -185,11 +186,11 @@ Mobile view:
 
 Desktop view:
 
-![Testemonial Desktop](docs/screenshots/testemonial-desktop.png)
+![Testimonial Desktop](docs/screenshots/testimonial-desktop.png)
 
 Mobile view:
 
-![Testemonial Mobile](docs/screenshots/testemonail-mobile.png)
+![Testimonial Mobile](docs/screenshots/testimonail-mobile.png)
 
 ### **Tours page**:
 ***
@@ -203,10 +204,10 @@ Mobile view:
 
 * This section shows all upcoming tours.
 * Each tour is presented with a representative image and some information about the tour.
-* The information includes a description of the water type, level of difficulty rating and dates.
+* The information includes a description of the water type, level of difficulty rating, and dates.
 * Each tour description has its own "Book now" button, which takes the user directly to the booking form if they are interested in one of the tours.
 * In the desktop view, the image and the corresponding description of a tour are displayed side by side.
-* In mobile view, the image, description and the "Book now" button are displayed one below the other.
+* In mobile view, the image, description, and "Book now" button are displayed one below the other.
 
 Desktop view:
 
@@ -247,7 +248,7 @@ Mobile view:
 
 #### *Success Hero:*
 
-* The image of a kayak sailing into the sunset symbolises the successful completion of registration.
+* The image of a kayak sailing into the sunset symbolizes the successful completion of registration.
 
 ![Success Hero](docs/screenshots/success-hero.png)
 
@@ -256,7 +257,7 @@ Mobile view:
 * This section encourages the user, after successfully registering for a tour, to visit the tour page regularly to discover other interesting tours.
 * The text also contains a hyperlink to the tour page.
 
-![More Adcenturous](docs/screenshots/success-more-adventurous.png)
+![More Adventurous](docs/screenshots/success-more-adventurous.png)
 
 ### **404 page:**
 ***
@@ -264,44 +265,54 @@ Mobile view:
 * The 404 page gives users feedback when they visit an incorrect URL/link.
 * The content of the header clearly indicates that they have tried to access a non-existent page.
 * The hero's image is intended to be humorous and to make the user feel good, to avoid any possible feeling of frustration.
-* The button below the hero image is clearly labelled and takes the user back to the home page. This gives the user a quick return to a good experience.
+* The button below the hero image is clearly labeled and takes the user back to the home page. This gives the user a quick return to a good experience.
 
 
 ![404 Page](docs/screenshots/404-page.png)
 
 ***
 ## **Typography**
-* Two Fonts are used throughout the Page:
+* Two fonts are used throughout the page:
   * DM Serif Text -> for all headings
   * Montserrat -> for all text content
   
-## **Future-Enhancements**
-
+## **Future Improvements**
+During the planning phase, during the initial brainstorming session, two additional features came to mind that I had not considered at the time given the scope of the project, but which could be implemented in the future as useful additions:
+* A video gallery page with videos from past tours. 
+  * This would give users an even deeper insight into the community's tours.
+* The possibility to rent kayak equipment for the tours.
+  * This could be realized with a special form at the bottom of a "rent equipment" page that shows the different types of equipment, e.g. kayak, paddle, life vests, etc. 
 
 ***
 ## **Testing Phase**
 I have documented the testing processes, both during and after development, in a separate file named [TESTING.md](TESTING.md).
 ***
 ## **Deployment**
-I deployed the page on GitHub pages via the following procedure: -
+I deployed the page on GitHub Pages via the following procedure:
 
 1. From the project's [repository](https://github.com/ksstrat/milestone-project-1), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-You  can find the live site via the following URL - [WaterWayFriends](https://ksstrat.github.io/milestone-project-1/index.html)
+You can find the live site via the following URL: [WaterWayFriends](https://ksstrat.github.io/milestone-project-1/index.html)
 ***
 ## **Credits**
 
 ### **General reference:**
 * The project drew inspiration from the Code Institute's code-along projects, Love Running and Boardwalk Games. Although I aimed to deviate as much as possible, there may still be some similarities in the code structure.
-* Throughout the project, I used Bootstrap Docs, W3Schools and MDN Web Docs as primary resources for guidance and reference.
+* Throughout the project, I used Bootstrap Docs, W3School, and MDN Web Docs as primary resources for guidance and reference.
+
+### **Technologies used:**
+For this project I have been using:
+* HTML
+* CSS
+* The Bootstrap library [Bootstrap](https://getbootstrap.com/)
+* Markdown for README.md and TESTING.md
 
 ### **Content:**
 * All content was created and written by me.
-* For this project I have been using the Bootstrap library [Bootstrap](https://getbootstrap.com/)
-* The Icons in the about us section and the footer were taken from [Font Awesome](https://fontawesome.com)
+* The icons in the about us section and the footer were taken from [Font Awesome](https://fontawesome.com)
 * All fonts were imported from [Google Fonts](https://fonts.google.com/)
 
 ### **Media:**
@@ -310,9 +321,9 @@ You  can find the live site via the following URL - [WaterWayFriends](https://ks
 * Carousel Image 3 (carouselheader3.webp) - [pixabay.com](https://unsplash.com/photos/person-in-red-shirt-riding-on-boat-on-lake-near-mountain-during-daytime-99eRQ-us59U)
 * Carousel Image 4 (carouselheader4.webp) - [pixabay.com](https://pixabay.com/de/photos/kajak-see-b%C3%A4ume-natur-koniferen-7432917/)
 * Carousel Image 5 (carouselheader5.webp) - [pixabay.com](https://pixabay.com/photos/rock-formation-cave-geology-3950774/)
-* Testimonal Man 1 (placeholder-testemonial.webp) - [pixabay.com](https://pixabay.com/photos/man-coffee-outdoors-lake-lakeside-3803551/)
-* Testimonal Man 2 (testemonial2.webp) - [pixabay.com](https://pixabay.com/photos/happy-man-adult-city-face-guy-1836445/)
-* Testimonal Woman (testemonial3.webp) - [pixabay.com](https://pixabay.com/photos/woman-kayak-rowing-boat-water-7123962/)
+* Testimonal Man 1 (placeholder-testimonial.webp) - [pixabay.com](https://pixabay.com/photos/man-coffee-outdoors-lake-lakeside-3803551/)
+* Testimonal Man 2 (testimonial2.webp) - [pixabay.com](https://pixabay.com/photos/happy-man-adult-city-face-guy-1836445/)
+* Testimonal Woman (testimonial3.webp) - [pixabay.com](https://pixabay.com/photos/woman-kayak-rowing-boat-water-7123962/)
 * Nordwald River (upcomingtour1.webp) - [pixabay.com](https://pixabay.com/photos/river-forest-trees-nature-7415159/)
 * Lake Emerald (upcomingtour2.webp) - [pixabay.com](https://pixabay.com/photos/emerald-lake-kayak-mountains-canoe-7029581/)
 * White River (upcomingtour3.webp) - [pixabay.com](https://pixabay.com/photos/river-trees-mountains-water-flow-5662292/)
