@@ -319,6 +319,7 @@ For this project I have been using:
 * All content was created and written by me.
 * The icons in the about us section and the footer were taken from [Font Awesome](https://fontawesome.com)
 * All fonts were imported from [Google Fonts](https://fonts.google.com/)
+* The Favicon was created using a free image from [pixabay.com](https://pixabay.com/photos/sea-wave-splash-big-wave-ocean-5499649/) and [favicon.io]
 
 ### **Media:**
 * Carousel Image 1 (carouselheader1.webp) - [pixabay.com](https://pixabay.com/de/photos/m%C3%A4dchen-kajak-see-kanu-kajakfahren-1561989/)
@@ -333,6 +334,7 @@ For this project I have been using:
 * Lake Emerald (upcomingtour2.webp) - [pixabay.com](https://pixabay.com/photos/emerald-lake-kayak-mountains-canoe-7029581/)
 * White River (upcomingtour3.webp) - [pixabay.com](https://pixabay.com/photos/river-trees-mountains-water-flow-5662292/)
 * Success Page Hero (successimg.webp) - [pixabay.com](https://pixabay.com/photos/boat-sunset-kayaking-dusk-nature-8548568/)
+* Favicon image - [pixabay.com](https://pixabay.com/photos/sea-wave-splash-big-wave-ocean-5499649/)
 * Color Scheme Tool - [coolors](https://coolors.co/)
 * Font Awesome Icons - [Font Awesome](https://fontawesome.com)
 * Bootstrap Library - [Bootstrap](https://getbootstrap.com/)
