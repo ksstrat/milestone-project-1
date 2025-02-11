@@ -129,7 +129,7 @@ During the development process, I identified the following bugs through manual t
 ***
 
 * The Lighthouse Score for desktops regarding "Accessibility", "Best Practices" and "SEO" is for all Pages 100 or near 100.
-* Performance is 90+ to 100. This is mainly due to larger images.
+* Performance is 90+ to 100. This is mainly due to larger images. (except booking.html)
 * There is no need for action here, as a score above 90 is considered by Google to be good and safe for the user experience.
 
 #### ***index.html***
@@ -145,6 +145,11 @@ During the development process, I identified the following bugs through manual t
 #### ***booking.html***
 
 ![booking.html Lighthouse Score](docs/screenshots/lh_desktop_bookinghtml_score.png)
+
+* The score of booking.html is 81. This is due to layout shifts detected by lighthouse. A total of 4 were identified in the test.
+* After some research, i found out that layout shifts can occur when using bootstrap if the page got long loading times. This is because bootstrap could manipulates the dom after the initial render.
+* Because the value is still over 80, I will continue to use bootstrap for booking.html.
+* If the performance drops further due to the layout shifts, I will create booking.html without using the bootstrap library.
 
 #### ***success.html***
 
