@@ -98,9 +98,49 @@ During the development process, I identified the following bugs through manual t
 * Both desktop and mobile tests were conducted
  
 #### ***Desktop Version:***
+***
 
+#### ***index.html***
+
+![index.html Desktop Lighthouse Score](docs/screenshots/lh_desktop_indexhtml_score.png)
+
+#### ***tours.html***
+
+![tours.html Lighthouse Score](docs/screenshots/lh_desktop_tourshtml_score.png)
+
+#### ***booking.html***
+
+![booking.html Lighthouse Score](docs/screenshots/lh_desktop_bookinghtml_score.png)
+
+#### ***success.html***
+
+![success.html Lighthouse Score](docs/screenshots/lh_desktop_successhtml_score.png)
+
+#### ***404.html***
+
+![404.html Lighthouse Score](docs/screenshots/lh_desktop_404html_score.png)
 
 #### ***Mobile Version:***
+***
 
-  
+#### ***index.html***
+
+![index.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_indexhtml_score.png)
+
+#### ***tours.html***
+
+![tours.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_tourshtml_score.png)
+
+#### ***booking.html***
+
+![booking.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_bookinghtml_score.png)
+
+#### ***success.html***
+
+![success.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_successhtml_score.png)
+
+#### ***404.html***
+
+![404.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_404html_score.png)
+
 ### **Accessability**
