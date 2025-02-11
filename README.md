@@ -325,7 +325,7 @@ For this project I have been using:
 * All content was created and written by me.
 * The icons in the about us section and the footer were taken from [Font Awesome](https://fontawesome.com)
 * All fonts were imported from [Google Fonts](https://fonts.google.com/)
-* The Favicon was created using a free image from [pixabay.com](https://pixabay.com/photos/sea-wave-splash-big-wave-ocean-5499649/) and [favicon.io]
+* The Favicon was created using a free image from [pixabay.com](https://pixabay.com/photos/sea-wave-splash-big-wave-ocean-5499649/) to generate with [favicon.io]
 
 ### **Media:**
 * Carousel Image 1 (carouselheader1.webp) - [pixabay.com](https://pixabay.com/de/photos/m%C3%A4dchen-kajak-see-kanu-kajakfahren-1561989/)
