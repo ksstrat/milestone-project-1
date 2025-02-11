@@ -7,9 +7,8 @@
       * [*HTML*](#html---httpsvalidatorw3orgnu)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Desktop Version:*](#desktop-version)
-      * [*Mobile Version*](#mobile-version)
-  * [**Accessability**](#accessability)
+      * [*Desktop Testing:*](#desktop-testing)
+      * [*Mobile Testing*](#mobile-testing)
 
 ## **Testing During Development**
 While developing, I've manually tested using the following methods:
@@ -97,10 +96,12 @@ During the development process, I identified the following bugs through manual t
 * All of the Lighthouse tests were run in the Chrome browser using the developer tools in incognito mode.
 * Both desktop and mobile tests were conducted
  
-#### ***Desktop Version:***
+#### ***Desktop Testing:***
 ***
 
 * The Lighthouse Score for desktops regarding "Accessibility", "Best Practices" and "SEO" is for all Pages 100 or near 100.
+* Performance is 90+ to 100. This is mainly due to larger images.
+* There is no need for action here, as a score above 90 is considered by Google to be good and safe for the user experience.
 
 #### ***index.html***
 
@@ -109,6 +110,8 @@ During the development process, I identified the following bugs through manual t
 #### ***tours.html***
 
 ![tours.html Lighthouse Score](docs/screenshots/lh_desktop_tourshtml_score.png)
+
+
 
 #### ***booking.html***
 
@@ -122,7 +125,7 @@ During the development process, I identified the following bugs through manual t
 
 ![404.html Lighthouse Score](docs/screenshots/lh_desktop_404html_score.png)
 
-#### ***Mobile Version:***
+#### ***Mobile Testing:***
 ***
 
 * The Lighthouse score for mobile regarding "Accessibility", "Best Practices" and "SEO" is for all Pages 100 or near 100.
@@ -132,9 +135,19 @@ During the development process, I identified the following bugs through manual t
 
 ![index.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_indexhtml_score.png)
 
+* The performance of index.html is at 73, mainly due to high-resolution images.
+* The largest factor is the "Largest Contentful Paint Element" (LCP). This measures the time it takes to render the largest content element. A moderate result would be 2.5-4ms. Because of the large images in the carousel index.html, the LCP takes 9,550 ms.
+* Since high quality images of past tours play an important role for both users and the site's look and feel, compressing and thus degrading the images is not advisable.
+* If the performance drops further in future measurements, the images must be compressed.
+
 #### ***tours.html***
 
 ![tours.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_tourshtml_score.png)
+
+* The performance score of tours.html is 77, as this page also has larger images of upcoming tours.
+* The LCP takes 6.5ms for tours.html and is therefore slow.
+* As on index.html, high-resolution images also play an important role here.
+* If the performance drops further in future measurements, the images must be compressed.
 
 #### ***booking.html***
 
@@ -147,5 +160,3 @@ During the development process, I identified the following bugs through manual t
 #### ***404.html***
 
 ![404.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_404html_score.png)
-
-### **Accessability**
