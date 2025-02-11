@@ -15,7 +15,7 @@ While developing, I've manually tested using the following methods:
 
 1. I manually tested each element for appearance and responsiveness by using a VSCode extension called 'Live Server' to start a local server and then testing my project mainly in the Chrome browser.
     
-2. I published the page using GitHub pages and shared the link with friends, including many developers, to test and get feedback.
+2. I published the page using GitHub Pages and shared the link with friends, including many developers, to test and get feedback.
 
 ### ***Manual Testing:***
 * To ensure cross-compatibility, I tested the project on four different browsers. The desktop browsers I utilized included:
@@ -42,32 +42,27 @@ During the development process, I identified the following bugs through manual t
 2.  * ***Issue:*** 
         * Contrast between primary color #7FC8F8 Light Sky Blue and background color #F9F9F9 Seasalt not sufficient.
     * ***Solution:***
-        * Switcht primary color to #000723 Oxford Blue.
+        * Switch primary color to #000723 Oxford Blue.
 
 3.  * ***Issue:*** 
         * The bootstrap class “display” was set to the value 2 for the header h1. This caused problems in the responsive view.
     * ***Solution:***
-        * Display classe was set to the value 4.
+        * Display class was set to the value 4.
 
 4.  * ***Issue:*** 
-        * On index.html, the screen could shake on small devices because the testimonial section element text hight differed to much.
+        * On index.html, the screen could shake on small devices because the testimonial section element text height differed too much.
     * ***Solution:***
         * Fixed height set for the texts of the tesimonial card (280px).
 
 5.  * ***Issue:*** 
-        * On index.html, the screen could shake on small devices because the testimonial section element text hight differed to much.
-    * ***Solution:***
-        * Fixed height set for the texts of the tesimonial card (280px).
-
-6.  * ***Issue:*** 
         * The images of the elements in the testimonial section varied too much in size. The face should be the highlighted element in the circle.
     * ***Solution:***
-        * Set a fixed height of 240px and width of 320px to secure that all testimonial faces are centered in the circle.
+        * Set a fixed height of 240px and width of 320px to ensure that all testimonial faces are centered in the circle.
 
-7.  * ***Issue:*** 
+6.  * ***Issue:*** 
         * On booking.html the text of the switch element protruded over the right side of the screen on mobile phones.
     * ***Solution:***
-        * Added bootstrap class mx-auto the the element.
+        * Added bootstrap class mx-auto to the element.
 
 ## **Post Development Testing**
 ### **Validators**
@@ -77,40 +72,40 @@ During the development process, I identified the following bugs through manual t
 
 #### ***index.html***
 
-* No error or warning was found during the validation of index.html. However, there was a "Info" that was also displayed on all my other pages:
+* No error or warning was found during the validation of index.html. However, there was an "Info" that was also displayed on all my other pages:
 
 ![Validation Info Message](docs/screenshots/validation_indexhtml_info.png)
 
-* I couldn't remember setting a slash for elements without a closing tag. After a quick check, I found out that the VSCode extension Prettier, which I had used to quickly format the hmtl code, sets this slash.
+* I couldn't remember setting a slash for elements without a closing tag. After a quick check, I found out that the VSCode extension Prettier, which I had used to quickly format the html code, sets this slash.
 * I then removed the slashes in elements without a closing tag on all pages.
 
 #### ***tours.html***
 
-* No error or warning was found during the validation of tours.html
+* No error or warning was found during the validation of tours.html.
 
 #### ***booking.html***
 
-* No error or warning was found during the validation of booking.html
+* No error or warning was found during the validation of booking.html.
 
 #### ***success.html***
 
-* No error or warning was found during the validation of success.html
+* No error or warning was found during the validation of success.html.
 
 #### ***404.html***
 
-* No error was found during the validation of 404.html
+* No error was found during the validation of 404.html.
 
 * *Warning Found*
 
      ![Validation Warning Message](docs/screenshots/validation_404html_warning.png)
 
 * *Solution*
-    * Changed the section to div because no structure or heading was needed and the only content was an image
+    * Changed the section to div because no structure or heading was needed, and the only content was an image.
 
 ### ***CSS*** - https://jigsaw.w3.org/css-validator/
 ***
 
-* No error was found during the validation of style.css
+* No error was found during the validation of style.css.
 
 * *Warning Found*
 
@@ -124,7 +119,7 @@ During the development process, I identified the following bugs through manual t
 ***
 ### **Test conditions**
 * All of the Lighthouse tests were run in the Chrome browser using the developer tools in incognito mode.
-* Both desktop and mobile tests were conducted
+* Both desktop and mobile tests were conducted.
  
 #### ***Desktop Testing:***
 ***
@@ -147,10 +142,10 @@ During the development process, I identified the following bugs through manual t
 
 ![booking.html Lighthouse Score](docs/screenshots/lh_desktop_bookinghtml_score.png)
 
-* The score of booking.html is 81. This is due to layout shifts detected by lighthouse. A total of 4 were identified in the test.
-* After some research, i found out that layout shifts can occur when using bootstrap if the page got long loading times. This is because bootstrap could manipulates the dom after the initial render.
-* Because the value is still over 80, I will continue to use bootstrap for booking.html.
-* If the performance drops further due to the layout shifts, I will create booking.html without using the bootstrap library.
+* The score of booking.html is 81. This is due to layout shifts detected by Lighthouse. A total of 4 were identified in the test.
+* After some research,I found out that layout shifts can occur when using Bootstrap if the page has long loading times. This is because Bootstrap could manipulate the DOM after the initial render.
+* Because the value is still over 80, I will continue to use Bootstrap for booking.html.
+* If the performance drops further due to the layout shifts, I will create booking.html without using the Bootstrap library.
 
 #### ***success.html***
 
@@ -171,8 +166,8 @@ During the development process, I identified the following bugs through manual t
 ![index.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_indexhtml_score.png)
 
 * The performance of index.html is at 73, mainly due to high-resolution images.
-* The largest factor is the "Largest Contentful Paint Element" (LCP). This measures the time it takes to render the largest content element. A moderate result would be 2.5-4ms. Because of the large images in the carousel index.html, the LCP takes 9,550 ms.
-* Since high quality images of past tours play an important role for both users and the site's look and feel, compressing and thus degrading the images is not advisable.
+* The largest factor is the "Largest Contentful Paint Element" (LCP). This measures the time it takes to render the largest content element. A moderate result would be 2.5-4 ms. Because of the large images in the carousel index.html, the LCP takes 9,550 ms.
+* Since high-quality images of past tours play an important role for both users and the site's look and feel, compressing and thus degrading the images is not advisable.
 * If the performance drops further in future measurements, the images must be compressed.
 
 #### ***tours.html***
@@ -180,7 +175,7 @@ During the development process, I identified the following bugs through manual t
 ![tours.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_tourshtml_score.png)
 
 * The performance score of tours.html is 77, as this page also has larger images of upcoming tours.
-* The LCP takes 6.5ms for tours.html and is therefore slow.
+* The LCP takes 6.5 ms for tours.html and is therefore slow.
 * As on index.html, high-resolution images also play an important role here.
 * If the performance drops further in future measurements, the images must be compressed.
 
