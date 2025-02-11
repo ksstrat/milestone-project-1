@@ -170,6 +170,8 @@ Mobile view:
 #### *About Us Section:*
 ##### *Why Paddle With Us*
 
+
+* After a brief introduction to the WaterWayFriends community, the added value of kayaking for the user is highlighted.
 * This section highlights the benefits of community kayaking.
 * It explains to the user why kayaking is good for body and soul.
 * The benefits should help the user to recognize the added value of kayaking in the community.
@@ -177,7 +179,11 @@ Mobile view:
 * In mobile view, these categories are displayed one below the other.
 * From the tablet view and upwards, two of these categories are displayed side by side.
 
+Desktop view:
+
 ![About Us Desktop](docs/screenshots/about-us-desktop.png)
+
+Mobile view:
 
 ![About Us Moblie](docs/screenshots/about-us-mobile.png)
 
