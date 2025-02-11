@@ -4,7 +4,7 @@
     * [*Bugs and Fixes*](#bugs-and-fixes)
 * [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
-      * [*HTML*](#html---httpsvalidatorw3orgnu)
+      * [*HTML*](#html---httpsvalidatorw3org)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
   * [**Lighthouse Scores**](#lighthouse-scores)
       * [*Desktop Testing:*](#desktop-testing)
@@ -32,13 +32,42 @@ While developing, I've manually tested using the following methods:
 
 During the development process, I identified the following bugs through manual testing:
 
-1. **Intended Outcome** - 
-    * ***Issue Found:*** 
-        * 
-    * ***Solution Used:*** 
-        * 
+1.  * ***Issue:*** 
+        * The footer was not sticking to the bottom of the page
+    * ***Solution:*** 
+        * Added classes "d-flex" "flex-column" and "min-vh-100" to body element
+        * Added class mt-auto to footer element
 
-    
+2.  * ***Issue:*** 
+        * Contrast between primary color #7FC8F8 Light Sky Blue and background color #F9F9F9 Seasalt not sufficient.
+    * ***Solution:***
+        * Switcht primary color to #000723 Oxford Blue.
+
+3.  * ***Issue:*** 
+        * The bootstrap class “display” was set to the value 2 for the header h1. This caused problems in the responsive view.
+    * ***Solution:***
+        * Display classe was set to the value 4.
+
+4.  * ***Issue:*** 
+        * On index.html, the screen could shake on small devices because the testimonial section element text hight differed to much.
+    * ***Solution:***
+        * Fixed height set for the texts of the tesimonial card (280px).
+
+5.  * ***Issue:*** 
+        * On index.html, the screen could shake on small devices because the testimonial section element text hight differed to much.
+    * ***Solution:***
+        * Fixed height set for the texts of the tesimonial card (280px).
+
+6.  * ***Issue:*** 
+        * The images of the elements in the testimonial section varied too much in size. The face should be the highlighted element in the circle.
+    * ***Solution:***
+        * Set a fixed height of 240px and width of 320px to secure that all testimonial faces are centered in the circle.
+
+7.  * ***Issue:*** 
+        * On booking.html the text of the switch element protruded over the right side of the screen on mobile phones.
+    * ***Solution:***
+        * Added bootstrap class mx-auto the the element.
+
 ## **Post Development Testing**
 ### **Validators**
 
@@ -160,3 +189,7 @@ During the development process, I identified the following bugs through manual t
 #### ***404.html***
 
 ![404.html Mobile Lighthouse Score](docs/screenshots/lh_mobile_404html_score.png)
+
+***
+
+[return to README.md](README.md)
