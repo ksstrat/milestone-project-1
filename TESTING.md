@@ -100,6 +100,8 @@ During the development process, I identified the following bugs through manual t
 #### ***Desktop Version:***
 ***
 
+* The Lighthouse Score for desktops regarding "Accessibility", "Best Practices" and "SEO" is for all Pages 100 or near 100.
+
 #### ***index.html***
 
 ![index.html Desktop Lighthouse Score](docs/screenshots/lh_desktop_indexhtml_score.png)
@@ -122,6 +124,9 @@ During the development process, I identified the following bugs through manual t
 
 #### ***Mobile Version:***
 ***
+
+* The Lighthouse score for mobile regarding "Accessibility", "Best Practices" and "SEO" is for all Pages 100 or near 100.
+* There are some differences in the performance score between the sites. I will discuss these below.
 
 #### ***index.html***
 
