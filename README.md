@@ -83,16 +83,21 @@ Additionally, the benefits of kayaking are highlighted, such as the experience o
 I created wireframes for this project to organize my ideas and not lose focus. See the links below for the mobile and desktop versions of the four wireframes.
 
 * Mobile Wireframes:
-    * [Home page]
-    * [Tours page]
-    * [Booking page]
-    * [Success page]
+    * [Home page](docs/wireframes/home_desktop.png)
+    * [Tours page](docs/wireframes/tour_desktop.png)
+    * [Booking page](docs/wireframes/booking_desktop.png)
+    * [Success page](docs/wireframes/success_desktop.png)
 
 * Desktop wireframes:
-    * [Home page]
-    * [Tours page]
-    * [Booking page]
-    * [Success page]
+    * [Home page](docs/wireframes/home_mobile.png)
+    * [Tours page](docs/wireframes/tour_mobile.png)
+    * [Booking page](docs/wireframes/booking_mobile.png)
+    * [Success page](docs/wireframes/success_mobile.png)
+
+* The structure of the wireframes has been largely retained. However, there have been some minor changes.
+  * More "Book Now" buttons have been added to allow users to book quickly.
+  * The layout of the Upcoming Tours information has been slightly refined.
+  * At the end of the project, it became clear that a 404 error page would be useful to give the user the best possible experience. There was no wireframe for this.
 
 ### **Color Scheme:**
 When choosing the color scheme, I wanted a scheme that represented the element of water while providing enough contrast for good readability. To generate the color palette, I used https://coolors.co/. 

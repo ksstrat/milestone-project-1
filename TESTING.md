@@ -7,7 +7,7 @@
       * [*HTML*](#html---httpsvalidatorw3org)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Desktop Testing:*](#desktop-testing)
+      * [*Desktop Testing*](#desktop-testing)
       * [*Mobile Testing*](#mobile-testing)
 
 ## **Testing During Development**
@@ -25,6 +25,7 @@ While developing, I've manually tested using the following methods:
   3. Vivaldi
   4. Safari
 
+* I have always carried out the manual testing with particular attention to the user stories defined in the README.md. This ensures that a user has the best possible experience with the website.
 * I utilized the browser's developer tools to simulate various screen sizes and devices, ranging from mobile (320 px in width) to Ultra Wide Screens (4000 px in width)." 
 * I also asked several people with different android and iphone mobile phones to test the site as well.
 
