@@ -1,445 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaterWayFriends</title>
-    <meta
-      name="description"
-      content="WaterWayFriends is your kayak community. Experience the most beautiful and exciting tours with us."
-    >
 
-    <!-- bootstrap link-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WaterWayFriends</title>
+  <meta name="description"
+    content="WaterWayFriends is your kayak community. Experience the most beautiful and exciting tours with us.">
 
-    <!-- custom CSS link -->
-    <link rel="stylesheet" href="assets/css/style.css" >
-  </head>
+  <!-- bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <!-- body element starts here-->
-  <!-- classes on body so footer mt-auto will work and stay to the bottom of the page -->
-  <body class="d-flex flex-column min-vh-100">
-    <!-- navigation -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg fixed-top"
-      data-bs-theme="dark"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="index.html">WaterWayFriends</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+  <!-- custom CSS link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<!-- body element starts here-->
+<!-- classes on body so footer mt-auto will work and stay to the bottom of the page -->
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">WaterWayFriends</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tours.html">Upcoming Tours</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn nav-button" href="booking.html">Book now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header id="header" class="container section">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-4">WaterWayFriends</h1>
+        <p class="lead display-5">Your Kayaking Community</p>
+        <p class="my-4">
+          Welcome to us! Here you can find out all about us, our tours and how
+          you can take part. We are always looking for new paddlers for our
+          adventures!
+        </p>
+        <a href="booking.html" class="btn nav-button mb-4" aria-current="page">Book now</a>
+      </div>
+      <div id="herocaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#herocaptions
+              " data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#herocaptions
+              " data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#herocaptions
+              " data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#herocaptions
+              " data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#herocaptions
+              " data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/carouselheader1.webp" class="d-block w-100"
+              alt="Woman in a kayak on a crystal clear lake">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Crystal clear waters</h2>
+              <p>
+                Experience the most beautiful waters.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carouselheader2.webp" class="d-block w-100"
+              alt="Three kayakers in a river from above">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Always together</h2>
+              <p>
+                We take care of each other.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carouselheader3.webp" class="d-block w-100"
+              alt="A kayaker on a lake with a large snowy mountain in the background">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Incredible scenery</h2>
+              <p>
+                Enjoy the most beautiful views.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carouselheader4.webp" class="d-block w-100"
+              alt="Two kayakers on a calm river in front of a densely wooded bank">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Quiet cruises</h2>
+              <p>
+                Relax in almost unspoilt nature.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/carouselheader5.webp" class="d-block w-100"
+              alt="A kayaker in the sea under a naturally formed rock arch">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Phenomena of nature</h2>
+              <p>
+                See natural wonders up close.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#herocaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutus">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tours.html">Upcoming Tours</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn nav-button" href="booking.html">Book now</a>
-            </li>
-          </ul>
-        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#herocaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
+    </div>
+  </header>
 
-    <!-- header -->
-    <header id="header" class="container section">
+  <!-- main for all key sections -->
+  <main>
+    <!-- about us section -->
+    <section id="aboutus" class="container section">
+      <div>
+        <h2 class="text-center display-4">Why you should paddle with us</h2>
+      </div>
       <div class="row">
-        <div class="col-12 text-center">
-          <h1 class="display-4">WaterWayFriends</h1>
-          <p class="lead display-5">Your Kayaking Community</p>
-          <p class="my-4">
-            Welcome to us! Here you can find out all about us, our tours and how
-            you can take part. We are always looking for new paddlers for our
-            adventures!
+        <div class="text-center mb-3">
+          <p><strong>Almost 20 years ago, the WaterWayFriends decided to go kayaking together. Since then, we have experienced
+            many exciting adventures together and made new friends. We are united by the great experience of kayaking.
+            Do you want to feel this enthusiasm too? Find out what awaits you here!</strong></p>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <h3><i class="fa-solid fa-tree"></i> Nature</h3>
+          <hr>
+          <p>
+            As a kayaker, you experience nature like no other sport. You can
+            reach the most secluded and untouched corners.
           </p>
-          <a href="booking.html" class="btn nav-button mb-4" aria-current="page"
-            >Book now</a
-          >
         </div>
-        <div
-          id="herocaptions"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#herocaptions
-              "
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#herocaptions
-              "
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#herocaptions
-              "
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#herocaptions
-              "
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#herocaptions
-              "
-              data-bs-slide-to="4"
-              aria-label="Slide 5"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/images/carouselheader1.webp"
-                class="d-block w-100"
-                alt="Woman in a kayak on a crystal clear lake"
-              >
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Crystal clear waters</h2>
-                <p>
-                  Experience the most beautiful waters.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/images/carouselheader2.webp"
-                class="d-block w-100"
-                alt="Three kayakers in a river from above"
-              >
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Always together</h2>
-                <p>
-                  We take care of each other.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/images/carouselheader3.webp"
-                class="d-block w-100"
-                alt="A kayaker on a lake with a large snowy mountain in the background"
-              >
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Incredible scenery</h2>
-                <p>
-                  Enjoy the most beautiful views.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/images/carouselheader4.webp"
-                class="d-block w-100"
-                alt="Two kayakers on a calm river in front of a densely wooded bank"
-              >
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Quiet cruises</h2>
-                <p>
-                  Relax in almost unspoilt nature.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/images/carouselheader5.webp"
-                class="d-block w-100"
-                alt="A kayaker in the sea under a naturally formed rock arch"
-              >
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Phenomena of nature</h2>
-                <p>
-                  See natural wonders up close.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#herocaptions"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#herocaptions"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <div class="col-12 col-md-6 text-center">
+          <h3><i class="fa-solid fa-fire-flame-curved"></i> Exercise</h3>
+          <hr>
+          <p>
+            The kayak is a piece of sports equipment that you can adapt to
+            your personal abilities and speed.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <h3><i class="fa-solid fa-heart"></i> Relexation</h3>
+          <hr>
+          <p>
+            On a quiet lake in untouched nature, the regular paddle stroke
+            brings you to rest. You can achieve meditative relaxation here.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <h3><i class="fa-solid fa-circle-question"></i> Adventure</h3>
+          <hr>
+          <p>
+            Every trip is an adventure. Whether it's white water or a river
+            trip.
+          </p>
         </div>
       </div>
-    </header>
+    </section>
 
-    <!-- main for all key sections -->
-    <main>
-      <!-- about us section -->
-      <section id="aboutus" class="container section">
-        <div>
-          <h2 class="text-center display-4">Why you should paddle with us</h2>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6 text-center">
-            <h3><i class="fa-solid fa-tree"></i> Nature</h3>
-            <hr>
-            <p>
-              As a kayaker, you experience nature like no other sport. You can
-              reach the most secluded and untouched corners.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 text-center">
-            <h3><i class="fa-solid fa-fire-flame-curved"></i> Exercise</h3>
-            <hr>
-            <p>
-              The kayak is a piece of sports equipment that you can adapt to
-              your personal abilities and speed.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 text-center">
-            <h3><i class="fa-solid fa-heart"></i> Relexation</h3>
-            <hr>
-            <p>
-              On a quiet lake in untouched nature, the regular paddle stroke
-              brings you to rest. You can achieve meditative relaxation here.
-            </p>
-          </div>
-          <div class="col-12 col-md-6 text-center">
-            <h3><i class="fa-solid fa-circle-question"></i> Adventure</h3>
-            <hr>
-            <p>
-              Every trip is an adventure. Whether it's white water or a river
-              trip.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- testimonials -->
-      <section id="testimonials" class="container section">
-        <div>
-          <h2 class="text-center display-4">What our friends say:</h2>
-        </div>
-        <div
-          id="testimonialsautoplay"
-          class="carousel slide carousel-dark"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img id="testimonialimg1"
-                      src="assets/images/placeholder-testimonial.webp"
-                      class="img-fluid rounded-circle"
-                      alt="A smiling man sits on a bench drinking coffee in front of a river"
-                    >
-                  </div>
-                  <div class="testimonialcard col-md-8">
-                    <div class="card-body">
-                      <h3 class="card-title display-6">Marc</h3>
-                      <p class="card-text">
-                        "<em>I did my first ever kayak trip with the WaterWayfriends - and I haven't regretted it. The trip on the Nordwald River was a wonderful experience. Many thanks to the WaterWayFriends for the excellent planning!"</em>
-                      </p>
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Nordwald River Tour / 10.08.2024</small
-                        >
-                      </p>
-                    </div>
-                  </div>
+    <!-- testimonials -->
+    <section id="testimonials" class="container section">
+      <div>
+        <h2 class="text-center display-4">What our friends say:</h2>
+      </div>
+      <div id="testimonialsautoplay" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img id="testimonialimg1" src="assets/images/placeholder-testimonial.webp"
+                    class="img-fluid rounded-circle"
+                    alt="A smiling man sits on a bench drinking coffee in front of a river">
                 </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img id="testimonialimg2"
-                      src="assets/images/testimonial2.webp"
-                      class="img-fluid rounded-circle"
-                      alt="Happy man with dark sunglasses laughs"
-                    >
-                  </div>
-                  <div class="testimonialcard col-md-8">
-                    <div class="card-body">
-                      <h3 class="card-titled display-6">Jimmy</h3>
-                      <p class="card-text">
-                        <em>"For me as an experienced kayaker who loves white water, the tour on the White River is always a highlight. I have already done it several times with the WaterWayFriends and will definitely do it again in the future!"</em>
-                      </p>
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >White River Tour / 03.07.2022</small
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img id="testimonialimg3"
-                      src="assets/images/testimonial3.webp"
-                      class="img-fluid rounded-circle"
-                      alt="Woman with sunglasses in sporty clothes kayaking on a lake"
-                    >
-                  </div>
-                  <div class="testimonialcard col-md-8">
-                    <div class="card-body">
-                      <h3 class="card-title display-6">Yennifer</h3>
-                      <p class="card-text">
-                        <em>"I have been a member of the WaterWayFriends community for a long time! My personal favourite is the Emerald Lake tour. The views are just amazing!"</em>
-                      </p>
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >Emerald Lake Tour / 22.07.2023</small
-                        >
-                      </p>
-                    </div>
+                <div class="testimonialcard col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title display-6">Marc</h3>
+                    <p class="card-text">
+                      "<em>I did my first ever kayak trip with the WaterWayfriends - and I haven't regretted it. The
+                        trip on the Nordwald River was a wonderful experience. Many thanks to the WaterWayFriends for
+                        the excellent planning!"</em>
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Nordwald River Tour / 10.08.2024</small>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#testimonialsautoplay"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#testimonialsautoplay"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        <div class="text-center pt-2">
-          <a href="booking.html" class="btn nav-button mb-4" aria-current="page"
-            >Book now</a
-          >
-        </div>
-      </section>
-    </main>
-
-    <!-- footer -->
-    <!-- mt-auto to push footer to page bottom-->
-    <footer id="contact" class="mt-auto">
-      <!-- contact data -->
-      <div class="container section pt-3">
-        <div class="row text-center">
-          <div class="col-12">
-            <h3>Contact Us!</h3>
-            <address>
-              <strong>WaterWayFriends</strong>
-              <br>
-              123 Lake Street
-              <br>
-              Lake City, 12345
-            </address>
-            <p>waterwayfriends@gmail.com</p>
+          <div class="carousel-item">
+            <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img id="testimonialimg2" src="assets/images/testimonial2.webp" class="img-fluid rounded-circle"
+                    alt="Happy man with dark sunglasses laughs">
+                </div>
+                <div class="testimonialcard col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-titled display-6">Jimmy</h3>
+                    <p class="card-text">
+                      <em>"For me as an experienced kayaker who loves white water, the tour on the White River is always
+                        a highlight. I have already done it several times with the WaterWayFriends and will definitely
+                        do it again in the future!"</em>
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">White River Tour / 03.07.2022</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- social links -->
-          <div class="social-links">
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              aria-label="Link to Instagram (opens in a new tab)"
-              rel="noopener"
-            >
-              <i class="fa-brands fa-instagram"></i
-            ></a>
-
-            <a
-              href="http://www.facebook.com/"
-              target="_blank"
-              aria-label="Link to Facebook(opens in a new tab)"
-              rel="noopener"
-            >
-              <i class="fa-brands fa-facebook"></i
-            ></a>
-
-            <a
-              href="https://x.com/"
-              target="_blank"
-              aria-label="Link to X(opens in a new tab)"
-              rel="noopener"
-            >
-              <i class="fa-brands fa-x-twitter"></i
-            ></a>
-
-            <a
-              href="https://pinterest.com/"
-              target="_blank"
-              aria-label="Link to Pinterest (opens in a new tab)"
-              rel="noopener"
-            >
-              <i class="fa-brands fa-pinterest"></i
-            ></a>
+          <div class="carousel-item">
+            <div class="card border-0 mb-3 mx-auto" style="max-width: 1080px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img id="testimonialimg3" src="assets/images/testimonial3.webp" class="img-fluid rounded-circle"
+                    alt="Woman with sunglasses in sporty clothes kayaking on a lake">
+                </div>
+                <div class="testimonialcard col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title display-6">Yennifer</h3>
+                    <p class="card-text">
+                      <em>"I have been a member of the WaterWayFriends community for a long time! My personal favourite
+                        is the Emerald Lake tour. The views are just amazing!"</em>
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Emerald Lake Tour / 22.07.2023</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsautoplay" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsautoplay" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="text-center pt-2">
+        <a href="booking.html" class="btn nav-button mb-4" aria-current="page">Book now</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <!-- mt-auto to push footer to page bottom-->
+  <footer id="contact" class="mt-auto">
+    <!-- contact data -->
+    <div class="container section pt-3">
+      <div class="row text-center">
+        <div class="col-12">
+          <h3>Contact Us!</h3>
+          <address>
+            <strong>WaterWayFriends</strong>
+            <br>
+            123 Lake Street
+            <br>
+            Lake City, 12345
+          </address>
+          <p>waterwayfriends@gmail.com</p>
+        </div>
+        <!-- social links -->
+        <div class="social-links">
+          <a href="https://www.instagram.com/" target="_blank" aria-label="Link to Instagram (opens in a new tab)"
+            rel="noopener">
+            <i class="fa-brands fa-instagram"></i></a>
+
+          <a href="http://www.facebook.com/" target="_blank" aria-label="Link to Facebook(opens in a new tab)"
+            rel="noopener">
+            <i class="fa-brands fa-facebook"></i></a>
+
+          <a href="https://x.com/" target="_blank" aria-label="Link to X(opens in a new tab)" rel="noopener">
+            <i class="fa-brands fa-x-twitter"></i></a>
+
+          <a href="https://pinterest.com/" target="_blank" aria-label="Link to Pinterest (opens in a new tab)"
+            rel="noopener">
+            <i class="fa-brands fa-pinterest"></i></a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- bootstrap JS script-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+  <!-- bootstrap JS script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
-    <!-- fontawesome CDN -->
-    <script
-      src="https://kit.fontawesome.com/6407888561.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- fontawesome CDN -->
+  <script src="https://kit.fontawesome.com/6407888561.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
